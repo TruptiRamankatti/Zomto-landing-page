@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Mate SC', serif;
+    background-color: #ebf2ff;
+}
+
+.navbar{
+    display: flex;
+    allign items: center;
+    justify content: space around;
+}
+
+.navbar__brand {
+    width: 100%
+}
+
+.navbar__logo {
+    width: 100%
+}
+
+.nav__item {
+    background-image: linear-gradient(
+    to right,
+    #ff512f 0%,
+    #dd2476 51%,
+    #ff512f 100%
+  );
+  
+}
